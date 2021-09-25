@@ -16,7 +16,7 @@ namespace Cadastro_de_Pessoas.Models
         
 
         [Required(ErrorMessage = "O campo nome é obrigatório")]
-        [StringLength(50, MinimumLength = 5, ErrorMessage = "O tamanho do nome deve ser maior que 4")]
+        [StringLength(50, MinimumLength = 6, ErrorMessage = "O tamanho do nome deve ser maior que 4")]
         public string PessoaNome { get; set; }
 
         [Required(ErrorMessage = "O campo Endereço é obrigatório")]
