@@ -1,0 +1,61 @@
+﻿@model System.Data.DataTable
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Cadastro de Pessoas</h1>
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Endereço</th>
+        <th>Telefone</th>
+        <th>Email</th>
+        <th>Editar</th>
+        <th>Excluir</th>
+    </tr>
+    @for (int i = 0; i < Model.Rows.Count; i++)
+    {
+        <tr>
+            <td>@Model.Rows[i][0]</td>
+            <td>@Model.Rows[i][1]</td>
+            <td>@Model.Rows[i][2]</td>
+            <td>@Model.Rows[i][3]</td>
+            <td>@Model.Rows[i][4]</td>
+            <td><a href="@Url.Action("Edit", "Pessoa", new { @id=@Model.Rows[i][0]})">Editar</a></td>
+            <td><a href="@Url.Action("Delete", "Pessoa", new { @id=@Model.Rows[i][0]})">Excluir</a></td>
+        </tr>
+    }
+</table>
+
+<div ng-app="myApp" ng-controller="customersCtrl">
+
+    <table>
+        <tr ng-repeat="x in names">
+            <td ng-if="$odd" style="background-color:#f1f1f1">
+                {{ x.Name }}
+            </td>
+            <td ng-if="$even">
+                {{ x.Name }}
+            </td>
+            <td ng-if="$odd" style="background-color:#f1f1f1">
+                {{ x.Country }}
+            </td>
+            <td ng-if="$even">
+                {{ x.Country }}
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('customersCtrl', function ($scope, $http) {
+        $http.get("customers.php")
+            .then(function (response) { $scope.names = response.data.records; });
+    });
+</script>
+
+<a href="@Url.Action("Create", "Pessoa")">Cadastrar</a>
+

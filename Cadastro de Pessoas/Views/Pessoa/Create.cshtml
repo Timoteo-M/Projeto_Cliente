@@ -1,0 +1,50 @@
+﻿@model Cadastro_de_Pessoas.Models.PessoaModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Cadastro</h1>
+
+<h4>Faça parte da nossa equipe!</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PessoaID" class="control-label">ID</label>
+                <input asp-for="PessoaID" class="form-control" />
+                <span asp-validation-for="PessoaID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PessoaNome" class="control-label">Nome</label>
+                <input asp-for="PessoaNome" class="form-control" />
+                <span asp-validation-for="PessoaNome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PessoaEndereco" class="control-label">Endereço</label>
+                <input asp-for="PessoaEndereco" class="form-control" />
+                <span asp-validation-for="PessoaEndereco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PessoaTel" class="control-label">Telefone</label>
+                <input asp-for="PessoaTel" class="form-control" />
+                <span asp-validation-for="PessoaTel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PessoaEmail" class="control-label">Email</label>
+                <input asp-for="PessoaEmail" class="form-control" />
+                <span asp-validation-for="PessoaEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar para Lista</a>
+</div>
+
