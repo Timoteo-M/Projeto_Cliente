@@ -1,6 +1,8 @@
 ﻿using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,11 +11,25 @@ namespace Cadastro_de_Pessoas.Models
 {
     public class PessoaModel
     {
+        [DisplayName ("ID")]
         public int PessoaID { get; set; }
+        
+
+        [Required(ErrorMessage = "O campo nome é obrigatório")]
+        [StringLength(50, MinimumLength = 5, ErrorMessage = "O tamanho do nome deve ser maior que 4")]
         public string PessoaNome { get; set; }
+
+        [Required(ErrorMessage = "O campo Endereço é obrigatório")]
         public string PessoaEndereco { get; set; }
+
+        [Required(ErrorMessage = "O campo Email é obrigatório")]
+        [RegularExpression(".+\\@.+\\..+", ErrorMessage = "Informe um e-mail válido.")]
         public string PessoaEmail { get; set; }
+
+
+        [Required(ErrorMessage = "O campo Telefone é obrigatório")]
         public string PessoaTel { get; set; }
+        
 
         readonly string connectionString = @"Data Source=DESKTOP-HV1ONTQ;Initial Catalog=DB_Cadastro;Integrated Security=True";
 

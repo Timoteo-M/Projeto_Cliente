@@ -22,12 +22,12 @@
             <td>@Model.Rows[i][2]</td>
             <td>@Model.Rows[i][3]</td>
             <td>@Model.Rows[i][4]</td>
-            <td><a href="@Url.Action("Edit", "Pessoa", new { @id=@Model.Rows[i][0]})">Editar</a></td>
-            <td><a href="@Url.Action("Delete", "Pessoa", new { @id=@Model.Rows[i][0]})">Excluir</a></td>
+            <td><a class="btn btn-outline-primary" href="@Url.Action("Edit", "Pessoa", new { @id=@Model.Rows[i][0]})">Editar</a></td>
+            <td><a class="btn btn-outline-danger" href="@Url.Action("Delete", "Pessoa", new { @id=@Model.Rows[i][0]})">Excluir</a></td>
         </tr>
     }
 </table>
 
 
-<a href="@Url.Action("Create", "Pessoa")">Cadastrar</a>
+<a class="btn btn-primary" href="@Url.Action("Create", "Pessoa")">Cadastrar</a>
 

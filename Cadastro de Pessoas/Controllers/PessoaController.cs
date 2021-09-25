@@ -35,9 +35,19 @@ namespace Cadastro_de_Pessoas.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(PessoaModel pModel)
         {
-            pModel.Salvar();
+            //pModel.Salvar();
 
-            return RedirectToAction("Index");
+            //return RedirectToAction("Index");
+
+            if (ModelState.IsValid)
+            {
+                pModel.Salvar();
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(pModel);
+            }
         }
 
         // GET: Pessoa/Edit/5
