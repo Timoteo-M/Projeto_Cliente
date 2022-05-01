@@ -127,3 +127,13 @@ C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\Cadastro de Pessoas\
 C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\Cadastro de Pessoas\obj\Debug\netcoreapp3.0\Razor\Views\Pessoa\Index.cshtml.g.cs
 C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\Cadastro de Pessoas\obj\Debug\netcoreapp3.0\Razor\Views\Pessoa\Create.cshtml.g.cs
 C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\Cadastro de Pessoas\obj\Debug\netcoreapp3.0\Razor\Views\Pessoa\Edit.cshtml.g.cs
+C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\obj\Debug\netcoreapp3.0\Cadastro de Pessoas.csprojAssemblyReference.cache
+C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\obj\Debug\netcoreapp3.0\staticwebassets\Cadastro de Pessoas.StaticWebAssets.Manifest.cache
+C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\obj\Debug\netcoreapp3.0\staticwebassets\Cadastro de Pessoas.StaticWebAssets.xml
+C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\obj\Debug\netcoreapp3.0\Cadastro de Pessoas.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\obj\Debug\netcoreapp3.0\Cadastro de Pessoas.RazorAssemblyInfo.cache
+C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\obj\Debug\netcoreapp3.0\Cadastro de Pessoas.RazorAssemblyInfo.cs
+C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\obj\Debug\netcoreapp3.0\Cadastro de Pessoas.AssemblyInfoInputs.cache
+C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\obj\Debug\netcoreapp3.0\Cadastro de Pessoas.AssemblyInfo.cs
+C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\obj\Debug\netcoreapp3.0\Cadastro de Pessoas.dll
+C:\Users\anacarolinemoraes\Documents\GitHub\Projeto_Cliente\obj\Debug\netcoreapp3.0\Cadastro de Pessoas.pdb

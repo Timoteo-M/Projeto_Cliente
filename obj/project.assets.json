@@ -8129,11 +8129,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anacarolinemoraes\\Documents\\GitHub\\Projeto_Cliente\\Cadastro de Pessoas\\Cadastro de Pessoas.csproj",
+      "projectUniqueName": "C:\\Users\\anacarolinemoraes\\Documents\\GitHub\\Projeto_Cliente\\Cadastro de Pessoas.csproj",
       "projectName": "Cadastro de Pessoas",
-      "projectPath": "C:\\Users\\anacarolinemoraes\\Documents\\GitHub\\Projeto_Cliente\\Cadastro de Pessoas\\Cadastro de Pessoas.csproj",
+      "projectPath": "C:\\Users\\anacarolinemoraes\\Documents\\GitHub\\Projeto_Cliente\\Cadastro de Pessoas.csproj",
       "packagesPath": "C:\\Users\\anacarolinemoraes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anacarolinemoraes\\Documents\\GitHub\\Projeto_Cliente\\Cadastro de Pessoas\\obj\\",
+      "outputPath": "C:\\Users\\anacarolinemoraes\\Documents\\GitHub\\Projeto_Cliente\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\anacarolinemoraes\\AppData\\Roaming\\NuGet\\NuGet.Config",
